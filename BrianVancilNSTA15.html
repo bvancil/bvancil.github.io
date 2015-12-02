@@ -1,10 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
- <meta charset="utf-8">
- <title>hCard for Brian Vancil</title>
- <link rel="profile" href="http://microformats.org/profile/hcard">
- <style type="text/css">
+  <meta charset="utf-8">
+  <title>hCard for Brian Vancil</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" rel="text/javascript" />
+  <link rel="profile" href="http://microformats.org/profile/hcard">
+  <style type="text/css">
 @import url(http://fonts.googleapis.com/css?family=Antic);
 
 body {
@@ -23,9 +25,9 @@ color: #022;
 }
 
 ul {
-width: 50%;
-margin-left: 25%;
-margin-right: 25%;
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
 text-align: left;
 }
 
@@ -68,64 +70,71 @@ margin-bottom: 0.8em;
  </style>
 </head>
 <body>
-<div id="hcard-Brian-Vancil" class="vcard">
- <img style="float:center; margin-right:4px;" height="200" width="200" src="https://pbs.twimg.com/profile_images/2406839057/a68989gd7zt952zp6j3i_400x400.jpeg" alt="photo of Brian Vancil" class="photo"/>
- <div class="n"><span class="honorific-prefix">Mr.</span>&nbsp;<span class="given-name">Brian</span>&nbsp;<span class="family-name">Vancil</span></div>
- <div class="urls">
-  <a class="url" href="http://fockphysics.wordpress.com">Blog</a>
-  <a class="url" href="https://twitter.com/bvancil">Twitter</a>
-  <a class="url" href="https://github.com/bvancil/">Github</a>
-  <a class="url" href="https://plus.google.com/u/0/108754830692159504203/">Google+</a>
- </div>
- <div><span class="fn">Brian Vancil</span>
- &lt;<a class="email" href="mailto:Brian@Vancil.name">Brian@Vancil.name</a>&gt;</div>
- <div class="org">Sumner Academy of Arts & Science</div>
- <div class="adr">
-  <div class="street-address">1610 N 8th St</div>
-  <span class="locality">Kansas City</span>,
-  <span class="region">KS</span>,
-  <span class="postal-code">66101</span>
-  <span class="country-name">United States of America</span>
- </div>
- <div class="org">Home</div>
- <div class="adr">
-  <span class="locality">Lawrence</span>,
-  <span class="region">KS</span>,
-  <span class="country-name">United States of America</span>
- </div>
- <a class="tel" href="tel:+1-785-813-1547">+1-785-813-1547</a>
-
- <div class="note">Perhaps I met you at <a href="http://www.nsta.org">NSTA</a>'s 2015 Winter Meeting in Kansas City, and I'd love to interact online about one of our mutual interests.  We can build something great!
-   <p>My areas of expertise are:
-   <ul class="expertises">
-     <li class="expertise" title="high">Mathematics (<a href="https://twitter.com/search?q=%23MathChat">#MathChat</a>)</li>
-     <li class="expertise" title="high">Physics (<a href="https://twitter.com/search?q=%23ITeachPhysics">#ITeachPhysics</a>)</li>
-     <li class="expertise" title="high">LaTeX</li>
-     <li class="expertise" title="moderate">Diagrams with <a href="http://asymptote.sourceforge.net">Asymptote</a> or <a href="http://www.texample.net/tikz/">TikZ</a></li>
-     <li class="expertise" title="moderate">Computer Science</li>
-     <li class="expertise" title="moderate">Programming</li>
-     <li class="expertise" title="moderate"><a href="http://modelinginstruction.org/">Modeling Instruction</a> (<a href="https://twitter.com/search?q=%23ModPhys">#ModPhys</a>)</li>
-     <li class="expertise" title="beginner">Teaching</li>
-     <li class="expertise" title="beginner"><a href="http://ibo.org/">International Baccalaureate Diploma Program</a> (<a href="https://twitter.com/search?q=%23IB">#IB</a> <a href="https://twitter.com/search?q=%23TOK">#TOK</a>)</li>
-     <li class="expertise" title="beginner">Earth & Space Science (<a href="https://twitter.com/search?q=%23ModEhys">#ModESS</a>)</li>
-     <li class="expertise" title="beginner">Standards-Based Grading (<a href="https://twitter.com/search?q=%23SBGchat">#SBGchat</a> <a href="https://twitter.com/search?q=%23SBAR">#SBAR</a>)</li>
-   </ul></p>
-   <p>My interests are:
-   <ul class="interests">
-     <li class="interest" title="high">Robotics</li>
-     <li class="interest" title="high">Computational Thinking</li>
-     <li class="interest" title="high">Computable Documents and Interactive Diagrams</li>
-     <li class="interest" title="high">Physics Education Research</li>
-     <li class="interest" title="high">Physics First</li>
-     <li class="interest" title="high">IB Physics</li>
-     <li class="interest" title="high">Interactive Electronic Textbooks</li>
-   </ul></p>
-
-</div>
-<p>I'm a <span class="category">teacher</span> at an <span class="category">International Baccalaureate</span> World School, use <span class="category">Modeling Instruction</span> in 12th grade and IB <span class="category">Physics</span> and  8th grade <span class="category">Earth & Space Science</span> classes.  I love <span class="category">programming</span> and am in charge of getting a <span class="category">robotics</span> club started at our school.</p>
-
-</div>
-<p style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.  <a href="javascript:void(location.href='http://h2vx.com/vcf/'+escape(location.href))">Extract vCard data</a> (<a href="javascript:location.href='http://suda.co.uk/projects/microformats/hcard/get-contact.php?uri='+escape(location.href)">alternate extraction site</a>).</p>
-
+  <div class="container-fluid">
+    <div class="row">
+      <div id="hcard-Brian-Vancil" class="vcard">
+        <div class="col-sm-4">
+          <img style="float:center; margin-right:4px;" height="200x" width="200" src="https://pbs.twimg.com/profile_images/2406839057/a68989gd7zt952zp6j3i_400x400.jpeg" alt="photo of Brian Vancil" class="photo"/>
+          <div class="n"><span class="honorific-prefix">Mr.</span>&nbsp;<span class="given-name">Brian</span>&nbsp;<span class="family-name">Vancil</span></div>
+          <div class="urls">
+            <a class="url" href="http://fockphysics.wordpress.com">Blog</a>
+            <a class="url" href="https://twitter.com/bvancil">Twitter</a>
+            <a class="url" href="https://github.com/bvancil/">Github</a>
+            <a class="url" href="https://plus.google.com/u/0/108754830692159504203/">Google+</a>
+          </div>
+          <div>
+            <span class="fn">Brian Vancil</span>&lt;<a class="email" href="mailto:Brian@Vancil.name">Brian@Vancil.name</a>&gt;</div>
+            <div class="org">Sumner Academy of Arts & Science</div>
+            <div class="adr">
+              <div class="street-address">1610 N 8th St</div>
+              <span class="locality">Kansas City</span>,
+              <span class="region">KS</span>,
+              <span class="postal-code">66101</span>
+              <span class="country-name">United States of America</span>
+            </div>
+            <div class="org">Home</div>
+            <div class="adr">
+              <span class="locality">Lawrence</span>,
+              <span class="region">KS</span>,
+              <span class="country-name">United States of America</span>
+            </div>
+            <a class="tel" href="tel:+1-785-813-1547">+1-785-813-1547</a>
+          </div>
+          <div class="col-sm-8">
+            <div class="note">Perhaps I met you at <a href="http://www.nsta.org">NSTA</a>'s 2015 Winter Meeting in Kansas City, and I'd love to interact online about one of our mutual interests.  We can build something great!
+              <p>My areas of expertise are:
+                <ul class="expertises">
+                  <li class="expertise" title="high">Mathematics (<a href="https://twitter.com/search?q=%23MathChat">#MathChat</a>)</li>
+                  <li class="expertise" title="high">Physics (<a href="https://twitter.com/search?q=%23ITeachPhysics">#ITeachPhysics</a>)</li>
+                  <li class="expertise" title="high">LaTeX</li>
+                  <li class="expertise" title="moderate">Diagrams with <a href="http://asymptote.sourceforge.net">Asymptote</a> or <a href="http://www.texample.net/tikz/">TikZ</a></li>
+                  <li class="expertise" title="moderate">Computer Science</li>
+                  <li class="expertise" title="moderate">Programming</li>
+                  <li class="expertise" title="moderate"><a href="http://modelinginstruction.org/">Modeling Instruction</a> (<a href="https://twitter.com/search?q=%23ModPhys">#ModPhys</a>)</li>
+                  <li class="expertise" title="beginner">Teaching</li>
+                  <li class="expertise" title="beginner"><a href="http://ibo.org/">International Baccalaureate Diploma Program</a> (<a href="https://twitter.com/search?q=%23IB">#IB</a> <a href="https://twitter.com/search?q=%23TOK">#TOK</a>)</li>
+                  <li class="expertise" title="beginner">Earth &amp; Space Science (<a href="https://twitter.com/search?q=%23ModEhys">#ModESS</a>)</li>
+                  <li class="expertise" title="beginner">Standards-Based Grading (<a href="https://twitter.com/search?q=%23SBGchat">#SBGchat</a> <a href="https://twitter.com/search?q=%23SBAR">#SBAR</a>)</li>
+                </ul>
+              </p>
+              <p>My interests are:
+                <ul class="interests">
+                  <li class="interest" title="high">Robotics</li>
+                  <li class="interest" title="high">Computational Thinking</li>
+                  <li class="interest" title="high">Computable Documents and Interactive Diagrams</li>
+                  <li class="interest" title="high">Physics Education Research</li>
+                  <li class="interest" title="high">Physics First</li>
+                  <li class="interest" title="high">IB Physics</li>
+                  <li class="interest" title="high">Interactive Electronic Textbooks</li>
+                </ul>
+              </p>
+            </div>
+            <p>I'm a <span class="category">teacher</span> at an <span class="category">International Baccalaureate</span> World School. I use <a href="https://modelinginstruction.org/"><span class="category">Modeling Instruction</span></a> in 12th grade and 11-12th grade IB <span class="category">Physics</span>&mdash;I have often taught the 9th grade Physics First course as well&mdash;and  8th grade <span class="category">Earth & Space Science</span> classes.  I love <span class="category">programming</span> and help with the <span class="category">robotics</span> club (and FRC team 5189) at our school.</p>
+          </div>
+        </div>
+        <p style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.  <a href="javascript:void(location.href='http://h2vx.com/vcf/'+escape(location.href))">Extract vCard data</a> (<a href="javascript:location.href='http://suda.co.uk/projects/microformats/hcard/get-contact.php?uri='+escape(location.href)">alternate extraction site</a>).</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
